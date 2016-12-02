@@ -1,0 +1,25 @@
+{
+  "name": "slides-intro",
+  "version": "0.0.1",
+  "description": "Intro de slides y logo para sitio web",
+  "main": "functions.js",
+  "dependencies": {
+    "npm": "^4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itcaso/slides-intro/"
+  },
+  "keywords": [
+    "intro",
+    "web",
+    "slides",
+    "logo"
+  ],
+  "author": "Italo Carlos",
+  "license": "ISC"
+}

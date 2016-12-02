@@ -1,0 +1,24 @@
+{
+  "name": "slides-intro",
+  "description": "Intro de slides y logo para sitio web",
+  "main": "functions.js",
+  "authors": [
+    "Italo Carlos"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "intro",
+    "web",
+    "slides",
+    "logo"
+  ],
+  "homepage": "https://github.com/itcaso/slides-intro/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
