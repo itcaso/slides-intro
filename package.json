@@ -1,6 +1,6 @@
 {
   "name": "slides-intro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Intro de slides y logo para sitio web",
   "main": "functions.js",
   "dependencies": {
