@@ -1,7 +1,7 @@
 {
   "name": "slides-intro",
   "description": "Intro de slides y logo para sitio web",
-  "main": "functions.js",
+  "main": "main.js",
   "authors": [
     "Italo Carlos"
   ],
@@ -20,8 +20,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "devDependencies": {
-    "bxslider-4": "^4.2.5"
-  }
+  ]
 }

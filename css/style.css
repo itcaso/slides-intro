@@ -1,4 +1,27 @@
 .intro{
-	background: #222222;
+	background: #000;
 	color:#fff;
+}
+.slideUp{
+	width: 100%;
+	overflow: hidden;
+}
+.slideUp img{
+	padding: 0px;
+	margin: 0px 3px;
+}
+.slideDown{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+}
+.slideDown img{
+	padding: 0px;
+	margin: 0px 3px;
+}
+.logo{
+	position: absolute;
+	left: 38%;
+	top: 45%;
 }
