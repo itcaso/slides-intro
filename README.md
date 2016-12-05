@@ -1,4 +1,4 @@
-# slides-intro 1.0.0
+# slides-intro 1.0.2
 
 ## Plugins usados
 
