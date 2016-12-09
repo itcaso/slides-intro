@@ -1,6 +1,24 @@
 .intro{
+	color:#000;
+}
+.blackbg{
+	min-height: 100%;
+  	min-width: 1024px;
+  	width: 100%;
+  	height: auto;
+  	position: fixed;
+	top: 0;
+	left: 0;
 	background: #000;
-	color:#fff;
+	z-index: 9998;
+}
+.intro-wrapper{
+	min-height: 100%;
+  	min-width: 1024px;
+  	width: 100%;
+  	height: auto;
+  	position: fixed;
+  	z-index: 9999;
 }
 .slideUp{
 	width: 100%;
