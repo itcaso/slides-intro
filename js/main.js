@@ -2,10 +2,11 @@
 (function($) {
     'use strict';
 
-    $.redirectURL = redirectURL; 
+    $.redirectURL = redirectURL;
+    $.hideIntro = hideIntro; 
 
     setTimeout(function(){
-		$('body').addClass('loaded');
+		$('.intro').addClass('loaded');
 	}, 3000); //Tiempo que se muestra el loader inicial
 
 	 $('#slide01').carouFredSel({ // Slider superior
@@ -35,12 +36,21 @@
 		}
 	 });
 
+	 //Redirecciona el sitio
 	 function redirectURL(){
 	 	var delay = 10000; //Tiempo en milisegundos
 		setTimeout(function(){ window.location = 'http://yahoo.com'; }, delay); //Cambiar la URL por la pagina del sitio
 	 }
 
+	 //Esconde el intro para mostrar la pagina web.
+	 function hideIntro(){
+	 	setTimeout(function(){
+			$( ".intro-wrapper, .blackbg").fadeOut("slow");
+		}, 10000); 
+	 }
+
 	 // Redireccionamiento desactivado en index.html, quitar comentarios para activarlo
 	 //redirectURL();
+	 hideIntro();
 
 })(jQuery);
